@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/moonlight.PNG";
 import projImg2 from "../assets/img/Mill.PNG";
 import projImg3 from "../assets/img/nob.PNG";
+import projImg4 from "../assets/img/calculator.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -29,6 +30,13 @@ export const Projects = () => {
       imgUrl: projImg3,
       liveDemoLink: "https://nobility-hub-client.vercel.app/",
       githubLink: "https://github.com/Jamescjay/Nobility-hub-backend",
+    },
+    {
+      title: "Advanced Calculator",
+      description: "calculator",
+      imgUrl: projImg4,
+      liveDemoLink: "https://jamescjay.github.io/Advanced-Calculator/",
+      githubLink: "https://github.com/Jamescjay/Advanced-Calculator",
     },
   ];
 
