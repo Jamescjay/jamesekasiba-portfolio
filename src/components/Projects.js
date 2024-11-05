@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/moonlight.PNG";
 import projImg2 from "../assets/img/Mill.PNG";
 import projImg3 from "../assets/img/nob.PNG";
 import projImg4 from "../assets/img/calculator.PNG";
+import projImg5 from "../assets/img/trivia.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -16,6 +17,13 @@ export const Projects = () => {
       imgUrl: projImg1,
       liveDemoLink: "https://moonlight-frontend.vercel.app/",
       githubLink: "https://github.com/Jamescjay/Moonlight-frontend",
+    },
+    {
+      title: "Trivia Master",
+      description: "Trivia game",
+      imgUrl: projImg5,
+      liveDemoLink: "https://trivia-master-eight.vercel.app/",
+      githubLink: "https://github.com/Jamescjay/Trivia-Master",
     },
     {
       title: "Mill",
@@ -90,6 +98,19 @@ export const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <div className="project-box">
                           <h2>Descriptions</h2>
+                          <h3>Trivia Master</h3>
+                          <p>
+                            Trivia Master is an interactive trivia game that
+                            challenges players' knowledge across various topics.
+                            With a user-friendly interface and dynamic gameplay,
+                            players answer multiple-choice questions, receiving
+                            instant feedback on their answers. The game features
+                            vibrant graphics, animations, and engaging sound
+                            effects, creating an immersive experience. Optimized
+                            for mobile devices, Trivia Master ensures a seamless
+                            gaming experience that entertains and educates
+                            players while testing their trivia skills.
+                          </p>
                           <h3>Mill</h3>
                           <p>
                             Mill is a full-stack e-commerce application built
