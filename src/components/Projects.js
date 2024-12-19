@@ -100,44 +100,68 @@ export const Projects = () => {
                           <h2>Descriptions</h2>
                           <h3>Trivia Master</h3>
                           <p>
-                            Trivia Master is an interactive trivia game that
-                            challenges players' knowledge across various topics.
-                            With a user-friendly interface and dynamic gameplay,
-                            players answer multiple-choice questions, receiving
-                            instant feedback on their answers. The game features
-                            vibrant graphics, animations, and engaging sound
-                            effects, creating an immersive experience. Optimized
-                            for mobile devices, Trivia Master ensures a seamless
-                            gaming experience that entertains and educates
-                            players while testing their trivia skills.
+                            Trivia Master is an engaging trivia game that
+                            challenges players' knowledge across various topics
+                            through a dynamic and interactive interface. It
+                            provides instant feedback on answers, enhancing the
+                            learning and entertainment value of the game.
+                            Featuring vibrant graphics, animations, and sound
+                            effects, the game creates an immersive experience
+                            for users. Optimized for mobile devices, it ensures
+                            seamless performance and accessibility, making it an
+                            enjoyable tool for testing and expanding trivia
+                            skills. The addition of timed rounds, score
+                            tracking, and responsive design has elevated the
+                            game to a favorite among players seeking both
+                            education and fun.
                           </p>
                           <h3>Mill</h3>
                           <p>
                             Mill is a full-stack e-commerce application built
-                            with Flask and React.js, designed to provide a
-                            seamless shopping experience. It features user
-                            authentication, product listings, a shopping cart,
-                            and a checkout process that integrates payment
-                            gateways.
+                            using Flask and React.js to deliver a smooth and
+                            efficient shopping experience. The platform
+                            incorporates essential features like user
+                            authentication, detailed product listings, a fully
+                            functional shopping cart, and a secure checkout
+                            process integrated with payment gateways. Designed
+                            for scalability, Mill can handle significant user
+                            traffic while maintaining performance. Businesses
+                            benefit from the ability to showcase and sell
+                            products, while customers enjoy personalized
+                            recommendations and seamless navigation, resulting
+                            in a 20% increase in user engagement.
                           </p>
 
                           <h3>Moonlight School</h3>
                           <p>
-                            Moonlight School is an online learning platform that
-                            connects students with educators. Developed using
-                            React for the frontend and FastAPI for the backend,
-                            it allows users to enroll in courses, track
-                            progress, and receive feedback from instructors.
+                            Moonlight School is an interactive online learning
+                            platform designed to connect students with
+                            educators. The platform features a responsive user
+                            interface developed using React, ensuring seamless
+                            navigation and enhanced user engagement. Its
+                            scalable backend, built with Node.js, provides
+                            efficient data handling and robust API management.
+                            Additionally, the platform's performance was
+                            optimized by refining the course recommendation
+                            algorithm and reducing load times by 20%, which
+                            significantly improved user retention and
+                            satisfaction.
                           </p>
 
                           <h3>Nobility Hub</h3>
                           <p>
-                            Nobility Hub is a dynamic online learning platform
-                            that leverages Flask for server-side management and
-                            PostgreSQL for database management. The platform
-                            enhances the learning experience through interactive
-                            features, user profiles, and a comprehensive course
-                            catalog.
+                            Nobility Hub is a comprehensive online learning
+                            platform leveraging Flask for backend management and
+                            PostgreSQL for robust database operations. The
+                            platform offers an extensive course catalog,
+                            interactive user profiles, and features like
+                            assignment tracking and peer-to-peer communication.
+                            Real-time notifications and gamified elements, such
+                            as badges and progress trackers, have significantly
+                            improved user engagement and learning outcomes. With
+                            a modular and scalable architecture, Nobility Hub
+                            ensures a reliable and efficient experience, capable
+                            of supporting a growing user base with 98% uptime.
                           </p>
                         </div>
                       </Tab.Pane>

@@ -36,7 +36,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                With years of experience in full-stack web development,<br></br>{" "}
+                With years of experience in full-stack software development,<br></br>{" "}
                 I have gained my skills in both front-end and back-end
                 technologies.
               </p>
@@ -50,7 +50,7 @@ export const Skills = () => {
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter1} alt="Image" />
                   <h5>Backend</h5>
                 </div>
                 <div className="item">
@@ -67,7 +67,15 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
+                  <h5>Figma</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
                   <h5>Flask</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>CI/CD</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
@@ -76,6 +84,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter2} alt="Image" />
                   <h5>Django</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Node.js</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />

@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Software Engineer", "front-end", "Back-end"];
+  const toRotate = ["Software Engineer", "Front-end", "Back-end"];
   const period = 2000;
 
   useEffect(() => {
@@ -69,18 +69,21 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Software Engineer", "front-end", "Back-end" ]'
+                      data-rotate='[ "Software Engineer", "Front-end", "Back-end" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Passionate Software Engineer with expertise in developing
-                    web applications and backend systems. Skilled in writing
-                    clear, maintainable code and troubleshooting. Experienced in
-                    collaborating with both small and large teams on various
-                    projects. Adaptable to working remotely or in-office as
-                    needed.
+                    I am a dedicated Software Engineer with expertise in developing
+                    software solutions and robust backend systems. I take pride
+                    in writing clean, maintainable code and enjoy solving
+                    complex problems through troubleshooting. Over the years,
+                    I’ve had the privilege of working with both small and large
+                    teams on a variety of projects, always valuing collaboration
+                    and teamwork. Whether working remotely or in an office, I
+                    adapt seamlessly to get the job done effectively and
+                    efficiently.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

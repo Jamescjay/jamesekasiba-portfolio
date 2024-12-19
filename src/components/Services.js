@@ -27,6 +27,14 @@ const Services = () => {
             </p>
           </div>
           <div className="service-item">
+            <h3>UI/UX Design and Consulting</h3>
+            <p>
+              Create intuitive and visually appealing designs that improve user
+              engagement. Conduct usability testing and implement feedback to
+              optimize user interfaces.
+            </p>
+          </div>
+          <div className="service-item">
             <h3>API Development</h3>
             <p>
               Creating and maintaining RESTful APIs for efficient data exchange
@@ -44,6 +52,14 @@ const Services = () => {
             </p>
           </div>
           <div className="service-item">
+            <h3>DevOps and Deployment</h3>
+            <p>
+              Set up CI/CD pipelines for smooth and efficient application
+              deployment. Deploy applications on cloud platforms like Render,
+              Vercel, or Heroku, ensuring scalability and reliability.
+            </p>
+          </div>
+          <div className="service-item">
             <h3>Database Management</h3>
             <p>
               Expertise in SQL and NoSQL databases, ensuring efficient data
@@ -55,6 +71,14 @@ const Services = () => {
             <p>
               Managing software development projects from inception to
               completion, ensuring timely delivery.
+            </p>
+          </div>
+          <div className="service-item">
+            <h3>Quality Assurance and Testing</h3>
+            <p>
+              Conduct comprehensive testing for applications to identify and fix
+              bugs. Implement automated testing solutions for continuous
+              integration workflows.
             </p>
           </div>
         </div>
