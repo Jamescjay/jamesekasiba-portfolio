@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/moonlight.PNG";
 import projImg2 from "../assets/img/Mill.PNG";
 import projImg3 from "../assets/img/nob.PNG";
-import projImg4 from "../assets/img/calculator.PNG";
+import projImg4 from "../assets/img/transcripto.PNG";
 import projImg5 from "../assets/img/trivia.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -26,6 +26,13 @@ export const Projects = () => {
       githubLink: "https://github.com/Jamescjay/Trivia-Master",
     },
     {
+      title: "Transcripto",
+      description: "Transcribe & Translate",
+      imgUrl: projImg4,
+      liveDemoLink: "https://transcripto.vercel.app/",
+      githubLink: "https://github.com/Jamescjay/Transcripto",
+    },
+    {
       title: "Mill",
       description: "E-commerce website",
       imgUrl: projImg2,
@@ -38,13 +45,6 @@ export const Projects = () => {
       imgUrl: projImg3,
       liveDemoLink: "https://nobility-hub-client.vercel.app/",
       githubLink: "https://github.com/Jamescjay/Nobility-hub-backend",
-    },
-    {
-      title: "Advanced Calculator",
-      description: "calculator",
-      imgUrl: projImg4,
-      liveDemoLink: "https://jamescjay.github.io/Advanced-Calculator/",
-      githubLink: "https://github.com/Jamescjay/Advanced-Calculator",
     },
   ];
 
@@ -96,8 +96,8 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
+                        <h2>Descriptions</h2>
                         <div className="project-box">
-                          <h2>Descriptions</h2>
                           <h3>Trivia Master</h3>
                           <p>
                             Trivia Master is an engaging trivia game that
@@ -115,6 +115,8 @@ export const Projects = () => {
                             game to a favorite among players seeking both
                             education and fun.
                           </p>
+                        </div>
+                        <div className="project-box">
                           <h3>Mill</h3>
                           <p>
                             Mill is a full-stack e-commerce application built
@@ -131,7 +133,8 @@ export const Projects = () => {
                             recommendations and seamless navigation, resulting
                             in a 20% increase in user engagement.
                           </p>
-
+                        </div>
+                        <div className="project-box">
                           <h3>Moonlight School</h3>
                           <p>
                             Moonlight School is an interactive online learning
@@ -147,7 +150,30 @@ export const Projects = () => {
                             significantly improved user retention and
                             satisfaction.
                           </p>
-
+                        </div>
+                        <div className="project-box">
+                          <h3>Transcripto</h3>
+                          <p>
+                            Transcripto is an advanced AI-powered transcription
+                            and translation platform designed to convert audio
+                            files into accurate text effortlessly. Built with
+                            React.js and flask, it offers a seamless user
+                            experience with a clean and modern interface. Users
+                            can upload audio files, and the system efficiently
+                            transcribes them while providing real-time visual
+                            feedback with animated bars. Additionally,
+                            Transcripto supports multiple languages, enabling
+                            both transcription and translation within a single
+                            workflow. Designed for speed and accuracy, it
+                            leverages cutting-edge NLP models to deliver
+                            high-quality results. Ideal for professionals,
+                            students, and content creators, Transcripto enhances
+                            productivity by streamlining the transcription
+                            process, reducing manual effort, and improving
+                            accessibility.
+                          </p>
+                        </div>
+                        <div className="project-box">
                           <h3>Nobility Hub</h3>
                           <p>
                             Nobility Hub is a comprehensive online learning
