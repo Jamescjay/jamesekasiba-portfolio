@@ -136,11 +136,6 @@ export const Contact = () => {
                       )}
                     </Row>
                   </form>
-                  <div className="contact-info">
-                    <h2>OR contact me</h2>
-                    <p>📞 Phone: +254112233367</p>
-                    <p>📧 Email: jamesekasiba123@gmail.com</p>
-                  </div>
                 </div>
               )}
             </TrackVisibility>

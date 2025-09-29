@@ -10,13 +10,12 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -28,71 +27,73 @@ export const Skills = () => {
     },
   };
 
+  const skillsData = [
+    { img: meter1, name: "Web Development", level: "expert" },
+    { img: meter1, name: "Backend Development", level: "expert" },
+    { img: meter1, name: "React", level: "expert" },
+    { img: meter1, name: "Python", level: "expert" },
+    { img: meter3, name: "JavaScript", level: "advanced" },
+    { img: meter3, name: "Node.js", level: "advanced" },
+    { img: meter3, name: "TypeScript", level: "advanced" },
+    { img: meter1, name: "Flask", level: "expert" },
+    { img: meter2, name: "Django", level: "proficient" },
+    { img: meter2, name: "FastAPI", level: "proficient" },
+    { img: meter3, name: "SQL", level: "advanced" },
+    { img: meter3, name: "MongoDB", level: "advanced" },
+    { img: meter3, name: "PostgreSQL", level: "advanced" },
+    { img: meter1, name: "Git & GitHub", level: "expert" },
+    { img: meter3, name: "CI/CD", level: "advanced" },
+    { img: meter3, name: "Docker", level: "advanced" },
+    { img: meter2, name: "AWS", level: "proficient" },
+    { img: meter1, name: "REST API", level: "expert" },
+    { img: meter2, name: "GraphQL", level: "proficient" },
+    { img: meter1, name: "Figma", level: "expert" },
+    { img: meter3, name: "Tailwind CSS", level: "advanced" },
+    { img: meter2, name: "Redux", level: "proficient" },
+    { img: meter3, name: "Next.js", level: "advanced" },
+    { img: meter2, name: "Express.js", level: "proficient" },
+  ];
+
   return (
     <section className="skill" id="skills">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p>
-                With years of experience in full-stack software development,<br></br>{" "}
-                I have gained my skills in both front-end and back-end
-                technologies.
-              </p>
+              <div className="skill-header">
+                <h2>Skills & Expertise</h2>
+                <p>
+                  With years of experience in full-stack software development,
+                  I have mastered a diverse range of technologies across both 
+                  front-end and back-end ecosystems.
+                </p>
+              </div>
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="owl-carousel owl-theme skill-slider"
+                autoPlay={true}
+                autoPlaySpeed={2500}
+                keyBoardControl={true}
+                transitionDuration={500}
+                containerClass="skill-carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding"
+                className="skill-slider"
               >
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Backend</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>JavaScript</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Python</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>React</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Figma</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Flask</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>CI/CD</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>SQL</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Django</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Node.js</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>FastApi</h5>
-                </div>
+                {skillsData.map((skill, index) => (
+                  <div className="item" key={index}>
+                    <div className="skill-card">
+                      <div className="skill-icon">
+                        <img src={skill.img} alt={skill.name} />
+                      </div>
+                      <h5>{skill.name}</h5>
+                      <span className={`skill-level ${skill.level}`}>
+                        {skill.level}
+                      </span>
+                    </div>
+                  </div>
+                ))}
               </Carousel>
             </div>
           </div>
